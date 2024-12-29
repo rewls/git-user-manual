@@ -1,0 +1,83 @@
+= Git User Manual
+
+== Features
+
+=== Introduction
+
+* Git is a fast distributed revision control system.
+
+'''
+
+* This manual is designed to be readable by someone with basic UNIX command-line
+  skills, but no previous knowledge of Git.
+
+'''
+
+* Chapter 1, _Repositories and Branches_ and Chapter 2, _Exploring Git history_
+  explain how to fetch and study a project using git -- read these chapters
+  to learn how to build and test a particular version of a software project,
+  search for regressions, and so on.
+
+'''
+
+* People needing to do actual development will also want to read Chapter 3,
+  _Developing with Git_ and Chapter 4, _Sharing development with others_.
+
+'''
+
+* Further chapters cover more specialized topics.
+
+'''
+
+* Comprehensive reference documentation is available through the man pages, or
+  *git-help*(1) command.
+* For example, for the command `git clone <repo>`, you can either use:
++
+[source,sh]
+$ man git-clone
+
+** or:
++
+[source,sh]
+$ git help clone
+
+* With the latter, you can use the manual viewer of your choice; see *git-help*(1)
+  for more information.
+
+'''
+
+* See also Appendix A, _Git Quick Reference_ for a brief overview of Git commands,
+  without any explanation.
+
+'''
+
+* Finally, see Appendix B, _Notes and todo list for this manual_ for ways that you
+  can help make this manual more complete.
+
+== Contents
+
+* [ ] 1. Repositories and Branches
+
+* [ ] 2. Exploring Git history
+
+* [ ] 3. Developing with Git
+
+* [ ] 4. Sharing development with others
+
+* [ ] 5. Rewriting history and maintaining patch series
+
+* [ ] 6. Advanced branch management
+
+* [ ] 7. Git concepts
+
+* [ ] 8. Submodules
+
+* [ ] 9. Low-level Git operations
+
+* [ ] 10. Hacking Git
+
+* [ ] 11. Git Glossary
+
+* A. Git Quick Reference
+
+* B. Notes and todo list for this manual
