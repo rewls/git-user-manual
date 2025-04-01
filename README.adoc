@@ -1,8 +1,6 @@
 = Git User Manual
 
-== Features
-
-=== Introduction
+== Introduction
 
 * Git is a fast distributed revision control system.
 
@@ -56,28 +54,16 @@ $ git help clone
 
 == Contents
 
-* [ ] 1. Repositories and Branches
-
+* [x] link:01-repositories-and-branches.adoc[1. Repositories and Branches]
 * [ ] 2. Exploring Git history
-
 * [ ] 3. Developing with Git
-
 * [ ] 4. Sharing development with others
-
 * [ ] 5. Rewriting history and maintaining patch series
-
 * [ ] 6. Advanced branch management
-
 * [ ] 7. Git concepts
-
 * [ ] 8. Submodules
-
 * [ ] 9. Low-level Git operations
-
 * [ ] 10. Hacking Git
-
 * [ ] 11. Git Glossary
-
 * A. Git Quick Reference
-
 * B. Notes and todo list for this manual
